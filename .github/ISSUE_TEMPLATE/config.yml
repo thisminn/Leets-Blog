@@ -1,4 +1,4 @@
 blank_issues_enabled: false #빈 Issue 비활성화
-issue_template:
+issue_templates:
   - filename: feature_request.md
   - filename: bug_report.md
