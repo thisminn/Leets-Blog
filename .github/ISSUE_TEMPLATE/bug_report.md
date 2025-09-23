@@ -1,6 +1,7 @@
 ---
 name: Bug Report
 about: 버그나 문제를 보고할 때 사용
+label: ['bug']
 ---
 
 ## 재현 방법
