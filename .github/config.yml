@@ -1,1 +1,10 @@
 blank_issues_enabled: false #빈 Issue 비활성화
+issue_templates:
+  - name: Bug Report
+    description: 버그를 보고할 때
+    filename: bug_report.md
+    labels: ['bug']
+  - name: Feature Request
+    description: 새로운 기능 요청
+    filename: feature_request.md
+    labels: ['enhancement']
