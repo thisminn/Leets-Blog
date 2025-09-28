@@ -1,8 +1,15 @@
-import { Button } from './component/button/Button'
+import { Button } from './component/Button/Button'
+import { Header } from './component/Header'
 import CreateIcon from './assets/create.svg?react'
+import { TextField } from './component/TextFiled/TextFiled'
 export default function App() {
   return (
     <div>
+      <TextField variant='default'/>
+      <TextField variant='input'/>
+      <TextField variant='click'/>
+      <TextField variant='disabled'/>
+      <Header />
       <div className="m-4">
         <Button variant="filled" colorScheme="primary" icon={<CreateIcon />}>
           깃로그 시작하기
