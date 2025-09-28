@@ -8,27 +8,24 @@ interface StyleProps {
 }
 
 export const getButtonClasses = ({ variant, shape, colorScheme, disabled }: StyleProps) => {
-  const baseStyle = 'inline-flex items-center justify-center gap-2 transition-colors'
+  const baseStyle =
+    'inline-flex items-center justify-center font-normal text-sm leading-[1.6] tracking-[-0.5%] gap-1 '
 
   const shapeStyle = {
     round: 'rounded-full px-3 py-2 gap-1',
-    rectangle: 'rounded-md px-2 py-1 gap-1',
+    rectangle: 'px-2 pt-0.5 pb-1 gap-1 border-none hover:bg-[#E6E6E6]',
   }[shape]
 
   const variantStyle =
     {
       filled: {
-        primary: 'bg-blue-500 text-white hover:bg-blue-600',
-        secondary: 'bg-gray-200 text-gray-700 hover:bg-gray-300',
-        dark: 'bg-black text-white hover:bg-gray-800',
-        light: 'bg-white text-gray-600 border border-gray-200 hover:bg-gray-50',
+        primary: 'bg-[#FFFFFF] text-[#00A1FF] border border-[#00A1FF] hover:bg-[#99d9f8]',
+        secondary: 'bg-[#FFFFFF] text-[#909090] border border-[#909090] hover:bg-[#E6E6E6]',
+        dark: 'bg-[#111112] text-[#FFFFFF] border border-[#111112] hover:text-[#909090]',
       },
       outline: {
-        primary: 'border border-blue-500 text-blue-500 bg-transparent hover:bg-blue-50',
-        secondary: 'border border-gray-400 text-gray-500 bg-transparent hover:bg-gray-100',
-      },
-      ghost: {
-        secondary: 'text-gray-500 bg-transparent hover:bg-gray-100',
+        primary: 'bg-[#FFFFFF] text-[#00A1FF] hover:bg-[#99d9f8]',
+        secondary: 'bg-[#FFFFFF] text-[#909090] hover:bg-[#E6E6E6]',
       },
     }[variant][colorScheme] || ''
 
