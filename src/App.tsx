@@ -9,7 +9,9 @@ export default function App() {
       <TextField variant='input'/>
       <TextField variant='click'/>
       <TextField variant='disabled'/>
-      <Header />
+      <Header type={'WRITE'} />
+      <Header type={'ICONS'} />
+      <Header type={'PUBLISH'} />
       <div className="m-4">
         <Button variant="filled" colorScheme="primary" icon={<CreateIcon />}>
           깃로그 시작하기
