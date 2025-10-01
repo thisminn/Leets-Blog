@@ -1,14 +1,14 @@
 import { Button } from './component/Button/Button'
-import { Header } from './component/Header'
+import { Header } from './component/Header/Header'
 import CreateIcon from './assets/create.svg?react'
 import { TextField } from './component/TextFiled/TextFiled'
 export default function App() {
   return (
     <div>
-      <TextField variant='default'/>
-      <TextField variant='input'/>
-      <TextField variant='click'/>
-      <TextField variant='disabled'/>
+      <TextField variant="default" />
+      <TextField variant="input" />
+      <TextField variant="click" />
+      <TextField variant="disabled" />
       <Header type={'WRITE'} />
       <Header type={'ICONS'} />
       <Header type={'PUBLISH'} />
