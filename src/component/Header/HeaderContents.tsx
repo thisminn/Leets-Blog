@@ -1,7 +1,7 @@
 import { Button } from '../Button/Button'
-import CreateIcon from '../assets/create.svg?react'
-import ChatIcon from '../assets/chat.svg?react'
-import MoreVertIcon from '../assets/more_vert.svg?react'
+import CreateIcon from '../../assets/create.svg?react'
+import ChatIcon from '../../assets/chat.svg?react'
+import MoreVertIcon from '../../assets/more_vert.svg?react'
 
 const WriteButton = (
   <Button

@@ -2,10 +2,12 @@ import { Button } from './component/Button/Button'
 import { Header } from './component/Header/Header'
 import CreateIcon from './assets/create.svg?react'
 import { TextField } from './component/TextFiled/TextFiled'
+import { Sidebar } from './component/Sidebar/Sidebar'
 export default function App() {
   return (
     <div>
-      <TextField variant="default" />
+      <Sidebar />
+      {/* <TextField variant="default" />
       <TextField variant="input" />
       <TextField variant="click" />
       <TextField variant="disabled" />
@@ -46,7 +48,7 @@ export default function App() {
         <Button shape="rectangle" colorScheme="secondary" icon={<CreateIcon />}>
           깃로그 시작하기
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -1,4 +1,4 @@
-import Reorder from '../assets/reorder.svg?react'
+import Reorder from '../../assets/reorder.svg?react'
 import { HEADER_CONTENTS } from './HeaderContents'
 
 type HeaderType = keyof typeof HEADER_CONTENTS
